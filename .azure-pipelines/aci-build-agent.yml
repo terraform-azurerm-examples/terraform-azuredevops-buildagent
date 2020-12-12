@@ -6,7 +6,8 @@ trigger:
       - main
   paths:
     include:
-      - buildagent/*
+      - Dockerfile
+      - start.sh
   batch: false
 
 schedules:
@@ -21,7 +22,7 @@ variables:
   azureSubscription: azure-sub-mgmt
   containerGroup: estfbuildagent1670f3af
   containerRegistry: azure-cr-mgmt
-  dockerFile: ./buildagent/Dockerfile
+  dockerFile: ./Dockerfile
   imageRepository: eslz/buildagent
   resourceGroup: estf
   skipComponentGovernanceDetection: 'true'
