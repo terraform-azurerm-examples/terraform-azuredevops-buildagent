@@ -20,7 +20,7 @@ schedules:
 
 variables:
   azureSubscription: azure-sub-mgmt
-  containerGroup: estfbuildagent1670f3af
+  containerGroup: estfbuildagent
   containerRegistry: azure-cr-mgmt
   dockerFile: ./Dockerfile
   imageRepository: eslz/buildagent
