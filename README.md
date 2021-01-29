@@ -6,7 +6,7 @@ Container image containing:
 
 * [Terraform](https://github.com/hashicorp/terraform)
 * [tflint](https://github.com/terraform-linters/tflint)
-* [tfline azurerm ruleset](https://github.com/terraform-linters/tflint-ruleset-azurerm)
+* [tflint azurerm ruleset](https://github.com/terraform-linters/tflint-ruleset-azurerm)
 * [az cli](https://github.com/Azure/azure-cli)
 
 ## Agent installation
